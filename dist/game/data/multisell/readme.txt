@@ -10,7 +10,7 @@ of this directory a little bit.
 102.xml  -> Olympiad: Equipment Rewards
 103.xml  -> Olympiad: Misc. Rewards
 
-202.xml  -> Test server helper - Purchase quest items and rare spellbooks
+202.xml  -> Character Progression Helper - Purchase quest items and rare spellbooks
 382.xml  -> Quest 382: Head Blacksmith Vergara
 426.xml  -> Quest 426: Fishing Shots
 500.xml  -> Seven Signs - Purchase consumable items

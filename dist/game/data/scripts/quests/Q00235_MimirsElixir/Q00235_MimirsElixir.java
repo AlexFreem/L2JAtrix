@@ -157,6 +157,18 @@ public class Q00235_MimirsElixir extends Quest
 	{
 		String htmltext = getNoQuestMsg(player);
 		final QuestState st = getQuestState(player, true);
+
+		if (hasQuestItems(player, MIMIR_ELIXIR))
+		{
+			player.broadcastPacket(new MagicSkillUse(player, player, 4339, 1, 1, 1));
+			takeItems(player, MIMIR_ELIXIR, -1);
+			player.broadcastPacket(new SocialAction(player.getObjectId(), 3));
+			st.setState(State.COMPLETED);
+
+			htmltext = "30721-16.htm";
+
+			return htmltext;
+		}
 		
 		switch (st.getState())
 		{
@@ -179,6 +191,17 @@ public class Q00235_MimirsElixir extends Quest
 			case State.STARTED:
 			{
 				final int cond = st.getCond();
+
+				if (hasQuestItems(player, MIMIR_ELIXIR))
+				{
+					player.broadcastPacket(new MagicSkillUse(player, player, 4339, 1, 1, 1));
+					takeItems(player, MIMIR_ELIXIR, -1);
+					player.broadcastPacket(new SocialAction(player.getObjectId(), 3));
+					st.exitQuest(false, true);
+					htmltext = "30721-14.htm";
+					break;
+				}
+				
 				switch (npc.getId())
 				{
 					case LADD:

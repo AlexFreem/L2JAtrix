@@ -702,13 +702,7 @@ public class VillageMaster extends Folk
 			return true;
 		}
 		
-		QuestState qs = player.getQuestState("Q00234_FatesWhisper");
-		if ((qs == null) || !qs.isCompleted())
-		{
-			return false;
-		}
-		
-		qs = player.getQuestState("Q00235_MimirsElixir");
+		QuestState qs = player.getQuestState("Q00235_MimirsElixir");
 		if ((qs == null) || !qs.isCompleted())
 		{
 			return false;
