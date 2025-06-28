@@ -237,7 +237,7 @@
 		<item npcId="20988"> <!-- Sairon's Puppet -->
 			<detail chance="9" skill="true" maxLevel="5" />
 		</item>
-		<item npcId="20994"> <!-- Garden Guard Leader -->
+		<item npcId="20994"> <!-- erden Guard Leader -->
 			<detail chance="9" skill="true" maxLevel="4" />
 		</item>
 		<item npcId="20995"> <!-- Garden Guard -->
