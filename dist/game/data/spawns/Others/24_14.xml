@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="24_14">
+		<npc id="50007" x="140617" y="-123642" z="-1904" heading="42053" respawnDelay="60" /> <!-- Andromeda - Wedding Manager -->
+	</spawn>
+</list>
