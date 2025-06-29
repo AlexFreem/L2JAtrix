@@ -589,8 +589,8 @@ public class TradeList
 			final InventoryUpdate partnerIU = new InventoryUpdate();
 			
 			// Transfer items
-			partnerList.TransferItems(_owner, partnerIU, ownerIU);
 			TransferItems(partnerList.getOwner(), ownerIU, partnerIU);
+			partnerList.TransferItems(_owner, partnerIU, ownerIU);
 			_owner.sendInventoryUpdate(ownerIU);
 			_partner.sendInventoryUpdate(partnerIU);
 			
