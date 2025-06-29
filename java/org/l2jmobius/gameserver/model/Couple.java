@@ -55,7 +55,7 @@ public class Couple
 				{
 					_player1Id = rs.getInt("player1Id");
 					_player2Id = rs.getInt("player2Id");
-					_maried = Boolean.parseBoolean(rs.getString("married"));
+					_maried = rs.getString("married").equals("1");
 					_affiancedDate = Calendar.getInstance();
 					_affiancedDate.setTimeInMillis(rs.getLong("affianceDate"));
 					
