@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="CustomTeleporters">
+		<npc id="900900" x="10602" y="-25033" z="-3680" heading="50000" respawnDelay="60" /> <!-- Mamacita -->
+	</spawn>
+</list>

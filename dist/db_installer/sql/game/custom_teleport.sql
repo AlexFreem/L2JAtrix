@@ -9,3 +9,7 @@ CREATE TABLE IF NOT EXISTS `custom_teleport` (
   `itemId` smallint(5) unsigned NOT NULL DEFAULT '57',
   PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+INSERT INTO `custom_teleport` VALUES
+('Rune -> Primeval Isle',60001,10468,-24569,-3650,10000000,0,57),
+('Primeval Isle -> Rune',60002,43835,-47749,-792,10000000,0,57);
