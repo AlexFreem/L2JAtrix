@@ -11,5 +11,5 @@ CREATE TABLE IF NOT EXISTS `custom_teleport` (
 ) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO `custom_teleport` VALUES
-('Rune -> Primeval Isle',60001,10468,-24569,-3650,10000000,0,57),
-('Primeval Isle -> Rune',60002,43835,-47749,-792,10000000,0,57);
+('Rune -> Primeval Isle',60001,10468,-24569,-3650,30000,0,57),
+('Primeval Isle -> Rune',60002,43835,-47749,-792,30000,0,57);
